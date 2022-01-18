@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <header>
+            <h1>Encryption and Decryption</h1>
+        </header>
+        <br>
+        <br>
+    <div class="container-fluid">
+        <header>
+            <h2>Encryption</h2>
+        </header>
+        <!-- Code to take the input from user to encrypt. -->
+        <label>Plain Text</label>
+        <input type="text" name="text1" id="text1" placeholder="enter the text to be encrypted"> <br>
+        <br>
+        <button type="button" class="btn btn-info" onclick="enc()">Encrypt</button><br><br>
+        <div class="screen" id="screen1"></div>
+        <br>
+        <br>
+        <br>
+
+        <header>
+            <h2>Decryption</h2>
+        </header>
+        <!-- Code to take the input from user to decrypt. -->
+        <label>Cipher Text</label>
+        <input type="text" name="text2" id="text2" placeholder="enter the text to be decrypted"> <br>
+        <br>
+        <button type="button" class="btn btn-info" onclick="dec()">Decrypt</button><br><br>
+        <div class="screen" id="screen2"></div>
+    
+    
+    </div> 
+    <!-- Linking javascript file to encrypt and decrypt. -->
+    <script src="ja.js"></script>
+   </body>
+</html>
